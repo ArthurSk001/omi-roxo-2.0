@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: purple;
+    font-family: Arial;
+    background-size: auto 100hv;
+    height: 100vh;
+    font-size: 12px;
+}
+
+/*se a tela tiver pelo menos 400px vai carregar esses estilos*/
+@media (min-width: 400px) {
+    body{
+      font-size: 14px;  
+    }
+}
+
+@media (min-width: 600px) {
+    body{
+      font-size: 18px;  
+    }
+}
+
+header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.menu{
+  background-color: black;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+}
+.menu a{
+   display: block;
+   padding: 10px 20px; 
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.menu li{
+    list-style: none;
+}
+.site-title{
+    text-align: center;
+}
+.site-title{
+    font-size: 4em;
+}
+.site-subtitle{
+    text-align: center;
+}
+.site-Sobre{
+    text-align: center;
+    color: black;
+    font-size: 2em;
+}
+.texto-sobre{
+    text-align: center;
+    color: black;
+}
+.site-sobre-mim{
+    text-align: left;
+    color: black;
+    font-size: 2em;
+}
